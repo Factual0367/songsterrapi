@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/onurhanak/SongsterrAPI"
+	"github.com/onurhanak/SongsterrAPI/internal"
 )
 
 func main() {
