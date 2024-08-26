@@ -1,4 +1,4 @@
-package internal
+package songsterrapi
 
 import (
 	"encoding/json"
