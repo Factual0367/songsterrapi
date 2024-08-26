@@ -16,10 +16,11 @@ type Song struct {
 }
 
 func AddGPDownloadLinks(songs []Song) {
-	c := colly.NewCollector()
-
 	for i := range songs {
 		song := &songs[i]
+		// new collector for each song to avoid adding same
+		// link for all songs
+		c := colly.NewCollector()
 
 		c.OnResponse(func(r *colly.Response) {
 			var data []map[string]interface{}
