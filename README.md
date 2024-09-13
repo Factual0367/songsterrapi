@@ -13,7 +13,7 @@ go get github.com/onurhanak/songsterrapi
 ```go
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/onurhanak/songsterrapi/"
+	"github.com/onurhanak/songsterrapi"
 )
 
 func main() {
