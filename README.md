@@ -22,3 +22,9 @@ func main() {
 	router.Run("localhost:8080")
 }
 ```
+
+Then you can use any tool you want to make a request and get results:
+
+```sh
+http://127.0.0.1:8080/search?query={ExampleQuery}
+```
